@@ -1,8 +1,8 @@
 # EARS
 
-## Idea 1:
+### Idea 1:
 
-## Electromechanical Automatic Relief System
+### Electromechanical Automatic Relief System
 
 Visual Pressure Sensor (for verification)
 
@@ -18,9 +18,9 @@ We've chose this design for it's simplicity, usefullness and scaling capablitity
 
 ---
 
-## Idea 2:
+### Idea 2:
 
-## Artificially Intelliget Robot Swarm
+### Artificially Intelliget Robot Swarm
 
 IMU For Position and Orientation
 
