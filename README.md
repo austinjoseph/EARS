@@ -37,3 +37,16 @@ This system would require that the control system be weighted and placed inside 
 This is needlessly complicated for questionable value.
 
 ---
+
+
+### Idea 3:
+
+### Single Point Magnetic Field Viewer
+
+Magentometer to meassure the strength and relative polarity of nearby magnetic fields.
+
+LEDs to show the Magnetic Field parametes.
+
+1860 LiPo battery for portability.
+
+This system would indicate the polarity via the different colored LEDs and field strength by the brightness of the LEDs.  This would be a cheap device for helping people visualize the size, strength, and shape of magentic fields in their environment.  
