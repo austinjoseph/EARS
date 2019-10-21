@@ -1,0 +1,19 @@
+Austin Joseph
+
+What I did:
+
+- Detailed design ideas.
+
+- Committed design ideas to github repo.
+
+- Added MIT License to Github Repo
+
+What is holding me up?
+
+- Nothing this week.
+
+What am I doing next week?
+
+- Working with team/customer to create design requirements.
+
+- Organizing GIT repo.
