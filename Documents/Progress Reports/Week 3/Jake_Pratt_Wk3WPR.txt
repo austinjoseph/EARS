@@ -1,0 +1,11 @@
+Jake Pratt
+Week 3 Progress Report
+
+What I worked on:
+  1: Got acces to this Git Repo.
+  2: Added an idea to the ReadMe.m file.
+  3: Created Requirements Document and started filling in some of the basic high level known reqirements.
+  
+No Blocking issues.
+
+Next week I will work with the team/customer to continue filling out the requirements document and begin initial HW Selection.
