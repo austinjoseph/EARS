@@ -3,7 +3,7 @@
 ### Must:
 Be able to meassure pressure of a fluid.
 
-Be able to control a releif valve of said fluid.
+Be able to control a relief valve of said fluid.
 
 -Provide a method for releasing pressure at a specified threshold. - AJ Suggestion
 
