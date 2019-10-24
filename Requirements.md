@@ -11,19 +11,19 @@ Be able to meassure pressure of a fluid.
 
 Be able to control a relief valve of said fluid.
 
--Provide a method for releasing pressure at a specified threshold.
+Provide a method for releasing pressure at a specified threshold.
 
--Safely hold 100 psi pressure in a chamber.
+Safely hold 100 psi pressure in a chamber.
 
--Contain at least one sensor.
+Contain at least one sensor.
 
--Contain at least one actuator.
+Contain at least one actuator.
 
--Have one or more processing modules which control actuators based on sensors.
+Have one or more processing modules which control actuators based on sensors.
 
--Have a PCB that is at least two layers.
+Have a PCB that is at least two layers.
 
--Use at least 25% surface mount components.
+Use at least 25% surface mount components.
 
 
 ### Should: 
@@ -36,6 +36,6 @@ May include temperature sensor for the fluid. (Future feature thats needed for T
 
 Transmit the state of the valve and the current pressure level to another system.
 
--Include variable pressure relief threshold
+Include variable pressure relief threshold
 
--Include an ignition system to ignite vented fluids
+Include an ignition system to ignite vented fluids
