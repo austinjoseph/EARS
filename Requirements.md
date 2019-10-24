@@ -1,10 +1,10 @@
 # Requirements - EARS
 
-Project - EARS
+Project - EARS (Electromechanical Automatic Pressure Relief System)
 
-Requirements Document v1.0
+Requirements Document v1.0 (10/23/2019)
 
-Austin Joseph, Wyatt Pausz, Jake Pratt, Juan Rivera-Mena
+TEAM - Austin Joseph, Wyatt Pausz, Jake Pratt, Juan Rivera-Mena
 
 ### Must:
 Be able to meassure pressure of a fluid.
@@ -38,4 +38,4 @@ Transmit the state of the valve and the current pressure level to another system
 
 -Include variable pressure relief threshold
 
--Include a spark gap to ignite vented fluids
+-Include an ignition system to ignite vented fluids
