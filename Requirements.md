@@ -1,7 +1,10 @@
 # Requirements - EARS
-Austin Joseph, Wyatt Pausz, Jake Pratt, Juan Rivera-Mena
+
 Project - EARS
+
 Requirements Document v1.0
+
+Austin Joseph, Wyatt Pausz, Jake Pratt, Juan Rivera-Mena
 
 ### Must:
 Be able to meassure pressure of a fluid.
