@@ -11813,7 +11813,7 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="EARS" deviceset="STM32LXX" device=""/>
+<part name="U1" library="EARS" deviceset="STM32LXX" device=""/>
 <part name="X2" library="EARS" deviceset="FL0800011Q" device=""/>
 <part name="X1" library="EARS" deviceset="ECX_34G" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
@@ -11830,7 +11830,7 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10u"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10u"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$2" library="EARS" deviceset="LMR160067Q3" device=""/>
+<part name="U2" library="EARS" deviceset="LMR160067Q3" device=""/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22u"/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L3216C" package3d_urn="urn:adsk.eagle:package:23476/2" value="6.8"/>
@@ -11853,7 +11853,7 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="AGND1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0"/>
-<part name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM386?-*" device="MM" package3d_urn="urn:adsk.eagle:package:16476/2" technology="1"/>
+<part name="U3" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM386?-*" device="MM" package3d_urn="urn:adsk.eagle:package:16476/2" technology="1"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
@@ -11881,7 +11881,7 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 Diode Breakdown 15V</text>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="208.28" y="149.86" smashed="yes">
+<instance part="U1" gate="G$1" x="208.28" y="149.86" smashed="yes">
 <attribute name="NAME" x="185.42" y="191.77" size="2.54" layer="95"/>
 <attribute name="VALUE" x="186.69" y="105.41" size="2.54" layer="96"/>
 </instance>
@@ -11941,7 +11941,7 @@ Diode Breakdown 15V</text>
 <instance part="GND4" gate="1" x="78.74" y="60.96" smashed="yes">
 <attribute name="VALUE" x="76.2" y="58.42" size="1.778" layer="96"/>
 </instance>
-<instance part="U$2" gate="G$1" x="171.45" y="73.66" smashed="yes">
+<instance part="U2" gate="G$1" x="171.45" y="73.66" smashed="yes">
 <attribute name="VALUE" x="163.83" y="81.28" size="1.778" layer="96"/>
 <attribute name="NAME" x="163.83" y="64.77" size="1.778" layer="95"/>
 </instance>
@@ -12021,7 +12021,7 @@ Diode Breakdown 15V</text>
 <attribute name="NAME" x="289.56" y="112.8014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="295.91" y="112.522" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="IC1" gate="G$1" x="257.81" y="180.34" smashed="yes" rot="MR0">
+<instance part="U3" gate="G$1" x="257.81" y="180.34" smashed="yes" rot="MR0">
 <attribute name="NAME" x="262.89" y="187.96" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="252.73" y="176.53" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -12061,22 +12061,22 @@ Diode Breakdown 15V</text>
 <net name="3V3" class="0">
 <segment>
 <wire x1="180.34" y1="190.5" x2="180.34" y2="186.69" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VDD_3"/>
+<pinref part="U1" gate="G$1" pin="VDD_3"/>
 <wire x1="180.34" y1="186.69" x2="180.34" y2="184.15" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="184.15" x2="180.34" y2="181.61" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="181.61" x2="180.34" y2="179.07" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="179.07" x2="180.34" y2="176.53" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="176.53" x2="181.61" y2="176.53" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VLCD"/>
+<pinref part="U1" gate="G$1" pin="VLCD"/>
 <wire x1="180.34" y1="186.69" x2="181.61" y2="186.69" width="0.1524" layer="91"/>
 <junction x="180.34" y="186.69"/>
-<pinref part="U$1" gate="G$1" pin="VDDA"/>
+<pinref part="U1" gate="G$1" pin="VDDA"/>
 <wire x1="180.34" y1="184.15" x2="181.61" y2="184.15" width="0.1524" layer="91"/>
 <junction x="180.34" y="184.15"/>
-<pinref part="U$1" gate="G$1" pin="VDD_1"/>
+<pinref part="U1" gate="G$1" pin="VDD_1"/>
 <wire x1="180.34" y1="181.61" x2="181.61" y2="181.61" width="0.1524" layer="91"/>
 <junction x="180.34" y="181.61"/>
-<pinref part="U$1" gate="G$1" pin="VDD_2"/>
+<pinref part="U1" gate="G$1" pin="VDD_2"/>
 <wire x1="180.34" y1="179.07" x2="181.61" y2="179.07" width="0.1524" layer="91"/>
 <junction x="180.34" y="179.07"/>
 <label x="180.34" y="190.5" size="1.27" layer="95" rot="R90" xref="yes"/>
@@ -12107,7 +12107,7 @@ Diode Breakdown 15V</text>
 <wire x1="218.44" y1="73.66" x2="223.52" y2="73.66" width="0.1524" layer="91"/>
 <junction x="218.44" y="73.66"/>
 <label x="223.52" y="73.66" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="FB"/>
+<pinref part="U2" gate="G$1" pin="FB"/>
 <wire x1="184.15" y1="69.85" x2="214.63" y2="69.85" width="0.1524" layer="91"/>
 <wire x1="214.63" y1="69.85" x2="214.63" y2="73.66" width="0.1524" layer="91"/>
 <junction x="214.63" y="73.66"/>
@@ -12119,7 +12119,7 @@ Diode Breakdown 15V</text>
 <label x="288.29" y="154.94" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="VS"/>
+<pinref part="U3" gate="G$1" pin="VS"/>
 <wire x1="260.35" y1="187.96" x2="260.35" y2="191.77" width="0.1524" layer="91"/>
 <label x="260.35" y="193.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="C8" gate="G$1" pin="2"/>
@@ -12136,14 +12136,14 @@ Diode Breakdown 15V</text>
 </net>
 <net name="MCU_P6" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PH1-OSC_OUT"/>
+<pinref part="U1" gate="G$1" pin="PH1-OSC_OUT"/>
 <wire x1="181.61" y1="161.29" x2="175.26" y2="161.29" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="8MOX_IN" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PH0-OSC_IN"/>
+<pinref part="U1" gate="G$1" pin="PH0-OSC_IN"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="181.61" y1="163.83" x2="160.02" y2="163.83" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="C1"/>
@@ -12154,14 +12154,14 @@ Diode Breakdown 15V</text>
 </net>
 <net name="MCU_P4" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PC15-OSC32_OUT"/>
+<pinref part="U1" gate="G$1" pin="PC15-OSC32_OUT"/>
 <wire x1="181.61" y1="166.37" x2="170.18" y2="166.37" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="OSC32_OUT" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PC14-OSC32_IN"/>
+<pinref part="U1" gate="G$1" pin="PC14-OSC32_IN"/>
 <wire x1="181.61" y1="168.91" x2="143.51" y2="168.91" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="143.51" y1="181.61" x2="138.43" y2="181.61" width="0.1524" layer="91"/>
@@ -12226,21 +12226,21 @@ Diode Breakdown 15V</text>
 <junction x="148.59" y="157.48"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="BOOT0"/>
+<pinref part="U1" gate="G$1" pin="BOOT0"/>
 <wire x1="181.61" y1="125.73" x2="179.07" y2="125.73" width="0.1524" layer="91"/>
 <wire x1="179.07" y1="125.73" x2="179.07" y2="120.65" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VSS_3"/>
+<pinref part="U1" gate="G$1" pin="VSS_3"/>
 <wire x1="179.07" y1="120.65" x2="179.07" y2="118.11" width="0.1524" layer="91"/>
 <wire x1="179.07" y1="118.11" x2="179.07" y2="115.57" width="0.1524" layer="91"/>
 <wire x1="179.07" y1="115.57" x2="179.07" y2="113.03" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="113.03" x2="179.07" y2="113.03" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VSS_2"/>
+<pinref part="U1" gate="G$1" pin="VSS_2"/>
 <wire x1="181.61" y1="115.57" x2="179.07" y2="115.57" width="0.1524" layer="91"/>
 <junction x="179.07" y="115.57"/>
-<pinref part="U$1" gate="G$1" pin="VSS_1"/>
+<pinref part="U1" gate="G$1" pin="VSS_1"/>
 <wire x1="181.61" y1="118.11" x2="179.07" y2="118.11" width="0.1524" layer="91"/>
 <junction x="179.07" y="118.11"/>
-<pinref part="U$1" gate="G$1" pin="VSSA"/>
+<pinref part="U1" gate="G$1" pin="VSSA"/>
 <wire x1="181.61" y1="120.65" x2="179.07" y2="120.65" width="0.1524" layer="91"/>
 <junction x="179.07" y="120.65"/>
 <wire x1="179.07" y1="113.03" x2="179.07" y2="110.49" width="0.1524" layer="91"/>
@@ -12280,7 +12280,7 @@ Diode Breakdown 15V</text>
 <wire x1="218.44" y1="62.23" x2="218.44" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
 <wire x1="158.75" y1="69.85" x2="157.48" y2="69.85" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="69.85" x2="157.48" y2="64.77" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -12312,12 +12312,12 @@ Diode Breakdown 15V</text>
 <wire x1="284.48" y1="109.22" x2="284.48" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="U3" gate="G$1" pin="GND"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="260.35" y1="172.72" x2="260.35" y2="171.45" width="0.1524" layer="91"/>
 <wire x1="260.35" y1="168.91" x2="260.35" y2="171.45" width="0.1524" layer="91"/>
 <wire x1="260.35" y1="171.45" x2="271.78" y2="171.45" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="+IN"/>
+<pinref part="U3" gate="G$1" pin="+IN"/>
 <wire x1="271.78" y1="171.45" x2="271.78" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="182.88" x2="265.43" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
@@ -12345,10 +12345,10 @@ Diode Breakdown 15V</text>
 </net>
 <net name="12V" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="VIN"/>
+<pinref part="U2" gate="G$1" pin="VIN"/>
 <wire x1="158.75" y1="77.47" x2="154.94" y2="77.47" width="0.1524" layer="91" style="longdash"/>
 <wire x1="154.94" y1="77.47" x2="154.94" y2="73.66" width="0.1524" layer="91" style="longdash"/>
-<pinref part="U$2" gate="G$1" pin="!SHDN!"/>
+<pinref part="U2" gate="G$1" pin="!SHDN!"/>
 <wire x1="154.94" y1="73.66" x2="158.75" y2="73.66" width="0.1524" layer="91" style="longdash"/>
 <wire x1="154.94" y1="77.47" x2="151.13" y2="77.47" width="0.1524" layer="91" style="longdash"/>
 <junction x="154.94" y="77.47"/>
@@ -12385,27 +12385,27 @@ Diode Breakdown 15V</text>
 <pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="194.31" y1="77.47" x2="195.58" y2="77.47" width="0.1524" layer="91" style="longdash"/>
 <wire x1="195.58" y1="77.47" x2="195.58" y2="73.66" width="0.1524" layer="91" style="longdash"/>
-<pinref part="U$2" gate="G$1" pin="SW"/>
+<pinref part="U2" gate="G$1" pin="SW"/>
 <wire x1="184.15" y1="73.66" x2="195.58" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LMR_CB" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="CB"/>
+<pinref part="U2" gate="G$1" pin="CB"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="184.15" y1="77.47" x2="186.69" y2="77.47" width="0.1524" layer="91" style="longdash"/>
 </segment>
 </net>
 <net name="!RESET!" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PB4"/>
+<pinref part="U1" gate="G$1" pin="PB4"/>
 <pinref part="J2" gate="G$1" pin="!RESET"/>
 <wire x1="234.95" y1="139.7" x2="252.73" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SWO" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PB3"/>
+<pinref part="U1" gate="G$1" pin="PB3"/>
 <wire x1="234.95" y1="142.24" x2="248.92" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="142.24" x2="248.92" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="SWO/TDO"/>
@@ -12414,7 +12414,7 @@ Diode Breakdown 15V</text>
 </net>
 <net name="SWDIO" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PA13"/>
+<pinref part="U1" gate="G$1" pin="PA13"/>
 <wire x1="234.95" y1="157.48" x2="242.57" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="242.57" y1="157.48" x2="242.57" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="SWDIO/TMS"/>
@@ -12423,7 +12423,7 @@ Diode Breakdown 15V</text>
 </net>
 <net name="SWDCLK" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PA14"/>
+<pinref part="U1" gate="G$1" pin="PA14"/>
 <wire x1="234.95" y1="154.94" x2="241.3" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="154.94" x2="241.3" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="SWDCLK/TCK"/>
@@ -12432,7 +12432,7 @@ Diode Breakdown 15V</text>
 </net>
 <net name="NC" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PA15"/>
+<pinref part="U1" gate="G$1" pin="PA15"/>
 <wire x1="234.95" y1="152.4" x2="240.03" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="240.03" y1="152.4" x2="240.03" y2="143.51" width="0.1524" layer="91"/>
 <wire x1="240.03" y1="143.51" x2="251.46" y2="143.51" width="0.1524" layer="91"/>
@@ -12443,7 +12443,7 @@ Diode Breakdown 15V</text>
 </net>
 <net name="NPN_DRV" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PB5"/>
+<pinref part="U1" gate="G$1" pin="PB5"/>
 <wire x1="234.95" y1="137.16" x2="237.49" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="237.49" y1="137.16" x2="237.49" y2="123.19" width="0.1524" layer="91"/>
@@ -12496,7 +12496,7 @@ Diode Breakdown 15V</text>
 </net>
 <net name="FB" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="-IN"/>
+<pinref part="U3" gate="G$1" pin="-IN"/>
 <wire x1="265.43" y1="177.8" x2="274.32" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="274.32" y1="177.8" x2="276.86" y2="177.8" width="0.1524" layer="91"/>
@@ -12511,9 +12511,9 @@ Diode Breakdown 15V</text>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="260.35" y1="199.39" x2="245.11" y2="199.39" width="0.1524" layer="91"/>
 <wire x1="245.11" y1="199.39" x2="245.11" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="OUT"/>
+<pinref part="U3" gate="G$1" pin="OUT"/>
 <wire x1="245.11" y1="180.34" x2="247.65" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="PA4"/>
+<pinref part="U1" gate="G$1" pin="PA4"/>
 <wire x1="245.11" y1="180.34" x2="234.95" y2="180.34" width="0.1524" layer="91"/>
 <junction x="245.11" y="180.34"/>
 </segment>
@@ -12527,7 +12527,7 @@ Diode Breakdown 15V</text>
 </net>
 <net name="NRST" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="NRST"/>
+<pinref part="U1" gate="G$1" pin="NRST"/>
 <wire x1="180.34" y1="158.75" x2="181.61" y2="158.75" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="153.67" x2="180.34" y2="153.67" width="0.1524" layer="91"/>
