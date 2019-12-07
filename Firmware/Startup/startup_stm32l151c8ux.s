@@ -1,8 +1,8 @@
 /**
   ******************************************************************************
-  * @file      startup_stm32l152xe.s
+  * @file      startup_stm32l151xb.s
   * @author    MCD Application Team
-  * @brief     STM32L152XE Devices vector table for GCC toolchain.
+  * @brief     STM32L151XB Devices vector table for GCC toolchain.
   *            This module performs:
   *                - Set the initial SP
   *                - Set the initial PC == Reset_Handler,
@@ -164,7 +164,7 @@ g_pfnVectors:
   .word DAC_IRQHandler
   .word COMP_IRQHandler
   .word EXTI9_5_IRQHandler
-  .word LCD_IRQHandler  
+  .word 0  
   .word TIM9_IRQHandler
   .word TIM10_IRQHandler
   .word TIM11_IRQHandler
@@ -186,24 +186,24 @@ g_pfnVectors:
   .word TIM6_IRQHandler
   .word TIM7_IRQHandler
   .word 0
-  .word TIM5_IRQHandler
-  .word SPI3_IRQHandler
-  .word UART4_IRQHandler
-  .word UART5_IRQHandler
-  .word DMA2_Channel1_IRQHandler
-  .word DMA2_Channel2_IRQHandler
-  .word DMA2_Channel3_IRQHandler
-  .word DMA2_Channel4_IRQHandler
-  .word DMA2_Channel5_IRQHandler
   .word 0
-  .word COMP_ACQ_IRQHandler
+  .word 0
+  .word 0
+  .word 0
+  .word 0
+  .word 0
+  .word 0
+  .word 0
+  .word 0
+  .word 0
+  .word 0
   .word 0
   .word 0
   .word 0
   .word 0
   .word 0
   .word BootRAM          /* @0x108. This is for boot in RAM mode for 
-                            STM32L152XE devices. */
+                            STM32L151XB devices. */
 
 /*******************************************************************************
 *
@@ -312,9 +312,6 @@ g_pfnVectors:
   .weak EXTI9_5_IRQHandler
   .thumb_set EXTI9_5_IRQHandler,Default_Handler
 
-  .weak LCD_IRQHandler
-  .thumb_set LCD_IRQHandler,Default_Handler  
-
   .weak TIM9_IRQHandler
   .thumb_set TIM9_IRQHandler,Default_Handler
 
@@ -374,36 +371,6 @@ g_pfnVectors:
 
   .weak TIM7_IRQHandler
   .thumb_set TIM7_IRQHandler,Default_Handler
-
-  .weak TIM5_IRQHandler
-  .thumb_set TIM5_IRQHandler,Default_Handler
-  
-  .weak SPI3_IRQHandler
-  .thumb_set SPI3_IRQHandler,Default_Handler
-
-  .weak UART4_IRQHandler
-  .thumb_set UART4_IRQHandler,Default_Handler
-
-  .weak UART5_IRQHandler
-  .thumb_set UART5_IRQHandler,Default_Handler
-  
-  .weak DMA2_Channel1_IRQHandler
-  .thumb_set DMA2_Channel1_IRQHandler,Default_Handler
-
-  .weak DMA2_Channel2_IRQHandler
-  .thumb_set DMA2_Channel2_IRQHandler,Default_Handler
-
-  .weak DMA2_Channel3_IRQHandler
-  .thumb_set DMA2_Channel3_IRQHandler,Default_Handler
-
-  .weak DMA2_Channel4_IRQHandler
-  .thumb_set DMA2_Channel4_IRQHandler,Default_Handler
-
-  .weak DMA2_Channel5_IRQHandler
-  .thumb_set DMA2_Channel5_IRQHandler,Default_Handler
-
-  .weak COMP_ACQ_IRQHandler
-   .thumb_set COMP_ACQ_IRQHandler,Default_Handler
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
 
