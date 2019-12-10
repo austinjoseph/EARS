@@ -1,7 +1,7 @@
 Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim.o: \
  ../Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim.c \
  ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h \
- ../Inc/stm32l1xx_hal_conf.h \
+ ../Core/Inc/stm32l1xx_hal_conf.h \
  ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rcc.h \
  ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_def.h \
  ../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l1xx.h \
@@ -28,7 +28,7 @@ Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim.o: \
 
 ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:
 
-../Inc/stm32l1xx_hal_conf.h:
+../Core/Inc/stm32l1xx_hal_conf.h:
 
 ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rcc.h:
 

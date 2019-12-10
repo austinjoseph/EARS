@@ -8,9 +8,9 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include Startup/subdir.mk
--include Src/subdir.mk
 -include Drivers/STM32L1xx_HAL_Driver/Src/subdir.mk
+-include Core/Startup/subdir.mk
+-include Core/Src/subdir.mk
 -include subdir.mk
 -include objects.mk
 
@@ -37,8 +37,8 @@ EARS.list \
 all: EARS.elf secondary-outputs
 
 # Tool invocations
-EARS.elf: $(OBJS) $(USER_OBJS) C:\Users\Austin\FreeRTOS\FreeRTOSv10.2.1\FreeRTOS\Demo\CORTEX_M0_STM32F0518_IAR\EARS\STM32L151C8UX_FLASH.ld
-	arm-none-eabi-gcc -o "EARS.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\Austin\FreeRTOS\FreeRTOSv10.2.1\FreeRTOS\Demo\CORTEX_M0_STM32F0518_IAR\EARS\STM32L151C8UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EARS.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+EARS.elf: $(OBJS) $(USER_OBJS) C:\Users\Susan\workspace\EARS_FINAL\EARS\STM32L151C6UX_FLASH.ld
+	arm-none-eabi-gcc -o "EARS.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\Susan\workspace\EARS_FINAL\EARS\STM32L151C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EARS.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

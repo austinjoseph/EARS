@@ -1,6 +1,6 @@
-Src/stm32l1xx_hal_msp.o: ../Src/stm32l1xx_hal_msp.c ../Inc/main.h \
+Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h \
- ../Inc/stm32l1xx_hal_conf.h \
+ ../Core/Inc/stm32l1xx_hal_conf.h \
  ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rcc.h \
  ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_def.h \
  ../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l1xx.h \
@@ -25,11 +25,11 @@ Src/stm32l1xx_hal_msp.o: ../Src/stm32l1xx_hal_msp.c ../Inc/main.h \
  ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_pwr.h \
  ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_pwr_ex.h
 
-../Inc/main.h:
+../Core/Inc/main.h:
 
 ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:
 
-../Inc/stm32l1xx_hal_conf.h:
+../Core/Inc/stm32l1xx_hal_conf.h:
 
 ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rcc.h:
 

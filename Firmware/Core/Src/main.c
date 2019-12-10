@@ -28,13 +28,13 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-#define PRESSURE_THRESHOLD 800
-#define PRESSURE_DELAY 99
+
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+#define PRESSURE_THRESHOLD 800
+#define PRESSURE_DELAY 99
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -47,7 +47,6 @@ ADC_HandleTypeDef hadc;
 
 /* USER CODE BEGIN PV */
 uint16_t adcValue;
-
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -70,7 +69,6 @@ static void MX_ADC_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
 
   /* USER CODE END 1 */
   

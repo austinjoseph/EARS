@@ -1,4 +1,4 @@
-Src/system_stm32l1xx.o: ../Src/system_stm32l1xx.c \
+Core/Src/system_stm32l1xx.o: ../Core/Src/system_stm32l1xx.c \
  ../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l1xx.h \
  ../Drivers/CMSIS/Device/ST/STM32L1xx/Include/stm32l151xb.h \
  ../Drivers/CMSIS/Include/core_cm3.h \
@@ -8,7 +8,7 @@ Src/system_stm32l1xx.o: ../Src/system_stm32l1xx.c \
  ../Drivers/CMSIS/Include/mpu_armv7.h \
  ../Drivers/CMSIS/Device/ST/STM32L1xx/Include/system_stm32l1xx.h \
  ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h \
- ../Inc/stm32l1xx_hal_conf.h \
+ ../Core/Inc/stm32l1xx_hal_conf.h \
  ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rcc.h \
  ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_def.h \
  ../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
@@ -43,7 +43,7 @@ Src/system_stm32l1xx.o: ../Src/system_stm32l1xx.c \
 
 ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:
 
-../Inc/stm32l1xx_hal_conf.h:
+../Core/Inc/stm32l1xx_hal_conf.h:
 
 ../Drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_rcc.h:
 
